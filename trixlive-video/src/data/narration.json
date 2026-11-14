@@ -1,0 +1,248 @@
+{
+  "_doc": "Roteiro de locução. 'text' = legenda exibida; 'say' (opcional) = grafia usada na síntese de voz. 'pauseAfter' em segundos. Edite e rode `npm run voice` para regenerar áudio e timeline.",
+  "fps": 30,
+  "voice": {
+    "engine": "kokoro-multi-lang-v1_0",
+    "speaker": "pm_alex",
+    "sid": 42,
+    "lang": "pt-br",
+    "speed": 0.98
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "title": "Abertura",
+      "leadIn": 3.2,
+      "tail": 1.6,
+      "lines": [
+        {
+          "id": "intro-1",
+          "text": "Compartilhe sua tela.",
+          "pauseAfter": 0.45
+        },
+        {
+          "id": "intro-2",
+          "text": "Converse em tempo real.",
+          "pauseAfter": 0.45
+        },
+        {
+          "id": "intro-3",
+          "text": "Tudo pelo navegador.",
+          "pauseAfter": 1.1
+        },
+        {
+          "id": "intro-4",
+          "text": "Esta é a TrixLive."
+        }
+      ]
+    },
+    {
+      "id": "platform",
+      "title": "Apresentação",
+      "leadIn": 0.8,
+      "tail": 1.0,
+      "lines": [
+        {
+          "id": "platform-1",
+          "text": "A TrixLive é uma plataforma web para compartilhar a sua tela e conversar por voz, ao mesmo tempo, em uma sala só sua.",
+          "pauseAfter": 0.5
+        },
+        {
+          "id": "platform-2",
+          "text": "Sem complicação: tudo funciona dentro do próprio navegador.",
+          "pauseAfter": 0.5
+        },
+        {
+          "id": "platform-3",
+          "text": "Vamos acompanhar, passo a passo, a jornada de quem está usando pela primeira vez."
+        }
+      ]
+    },
+    {
+      "id": "home",
+      "title": "Página inicial",
+      "leadIn": 2.4,
+      "tail": 1.2,
+      "lines": [
+        {
+          "id": "home-1",
+          "text": "Tudo começa em korabots.com.br.",
+          "say": "Tudo começa em korabots, ponto com, ponto bê erre.",
+          "pauseAfter": 0.8
+        },
+        {
+          "id": "home-2",
+          "text": "Ao abrir o endereço, a página inicial da TrixLive já apresenta o que você precisa para começar a sua sessão.",
+          "pauseAfter": 0.5
+        },
+        {
+          "id": "home-3",
+          "text": "Vamos por partes."
+        }
+      ]
+    },
+    {
+      "id": "setup",
+      "title": "Apelido, perfil e microfone",
+      "leadIn": 0.6,
+      "tail": 1.4,
+      "lines": [
+        {
+          "id": "setup-1",
+          "text": "Primeiro, escolha um apelido. É com ele que você vai aparecer para os outros participantes.",
+          "pauseAfter": 1.6
+        },
+        {
+          "id": "setup-2",
+          "text": "Em seguida, selecione um dos perfis de sessão disponíveis, de acordo com o que você pretende compartilhar.",
+          "pauseAfter": 1.6
+        },
+        {
+          "id": "setup-3",
+          "text": "E, antes de entrar, faça um teste rápido do microfone, para ter certeza de que a sua voz está chegando com clareza."
+        }
+      ]
+    },
+    {
+      "id": "room",
+      "title": "Criação da sala",
+      "leadIn": 0.6,
+      "tail": 2.2,
+      "lines": [
+        {
+          "id": "room-1",
+          "text": "Tudo pronto? Agora é só criar a sua sala privada.",
+          "pauseAfter": 1.2
+        },
+        {
+          "id": "room-2",
+          "text": "Ela é o seu espaço reservado, para as pessoas que você convidar."
+        }
+      ]
+    },
+    {
+      "id": "invite",
+      "title": "Convite",
+      "leadIn": 0.5,
+      "tail": 2.0,
+      "lines": [
+        {
+          "id": "invite-1",
+          "text": "Para chamar a sua turma, compartilhe o convite.",
+          "pauseAfter": 0.6
+        },
+        {
+          "id": "invite-2",
+          "text": "Envie o link da sala por mensagem, ou mostre o QR Code, para quem preferir acessar apontando a câmera do celular."
+        }
+      ]
+    },
+    {
+      "id": "share",
+      "title": "Compartilhamento de tela",
+      "leadIn": 0.6,
+      "tail": 1.2,
+      "lines": [
+        {
+          "id": "share-1",
+          "text": "Chegou a hora de compartilhar a tela.",
+          "pauseAfter": 1.0
+        },
+        {
+          "id": "share-2",
+          "text": "Por segurança, o próprio navegador pede a sua autorização e deixa você escolher o que mostrar: a tela inteira, uma janela, ou apenas uma guia.",
+          "pauseAfter": 1.0
+        },
+        {
+          "id": "share-3",
+          "text": "Nada é transmitido sem a sua permissão, e você pode encerrar o compartilhamento quando quiser."
+        }
+      ]
+    },
+    {
+      "id": "voice",
+      "title": "Participação e voz",
+      "leadIn": 0.6,
+      "tail": 2.2,
+      "lines": [
+        {
+          "id": "voice-1",
+          "text": "Do outro lado, quem entra na sala acompanha a sua tela e participa da conversa por voz, em tempo real.",
+          "pauseAfter": 0.7
+        },
+        {
+          "id": "voice-2",
+          "text": "Os controles ficam sempre à mão: ative ou silencie o microfone e acesse as configurações da sessão."
+        }
+      ]
+    },
+    {
+      "id": "usecases",
+      "title": "Contextos de uso",
+      "leadIn": 0.6,
+      "tail": 1.0,
+      "lines": [
+        {
+          "id": "usecases-1",
+          "text": "E o melhor: a TrixLive se adapta ao seu momento.",
+          "pauseAfter": 0.6
+        },
+        {
+          "id": "usecases-2",
+          "text": "Mostre a sua partida e jogue junto com os amigos.",
+          "pauseAfter": 0.8
+        },
+        {
+          "id": "usecases-3",
+          "text": "Assista a conteúdos em conjunto, comentando cada cena.",
+          "pauseAfter": 0.8
+        },
+        {
+          "id": "usecases-4",
+          "text": "Bata papo por voz, sem precisar de mais nada.",
+          "pauseAfter": 0.8
+        },
+        {
+          "id": "usecases-5",
+          "text": "Ou colabore no trabalho: apresente telas, revise projetos e resolva tarefas em equipe."
+        }
+      ]
+    },
+    {
+      "id": "browser",
+      "title": "Direto no navegador",
+      "leadIn": 0.6,
+      "tail": 1.0,
+      "lines": [
+        {
+          "id": "browser-1",
+          "text": "Tudo isso direto no navegador: sem instalar programas e sem criar cadastro.",
+          "pauseAfter": 0.6
+        },
+        {
+          "id": "browser-2",
+          "text": "É só abrir o endereço, escolher o seu apelido, e pronto: você já está conectado."
+        }
+      ]
+    },
+    {
+      "id": "outro",
+      "title": "Encerramento",
+      "leadIn": 1.6,
+      "tail": 5.0,
+      "lines": [
+        {
+          "id": "outro-1",
+          "text": "TrixLive. Sua tela, sua sala, sua conexão.",
+          "say": "TrixLive. Sua tela. Sua sala. Sua conexão.",
+          "pauseAfter": 0.9
+        },
+        {
+          "id": "outro-2",
+          "text": "Acesse korabots.com.br e crie a sua sala agora mesmo.",
+          "say": "Acesse korabots, ponto com, ponto bê erre, e crie a sua sala agora mesmo."
+        }
+      ]
+    }
+  ]
+}

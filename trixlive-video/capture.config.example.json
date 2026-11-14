@@ -1,0 +1,18 @@
+{
+  "_doc": "Copie para capture.config.json e preencha apenas os seletores CSS que a detecção automática não encontrar.",
+  "selectors": {
+    "nickname": "",
+    "profile": "",
+    "micTest": "",
+    "createRoom": "",
+    "invite": "",
+    "inviteLink": "",
+    "qr": "",
+    "shareScreen": "",
+    "stopShare": "",
+    "controls": "",
+    "join": "",
+    "mute": "",
+    "settings": ""
+  }
+}

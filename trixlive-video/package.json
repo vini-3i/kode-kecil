@@ -1,0 +1,41 @@
+{
+  "name": "trixlive-promo-video",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vídeo promocional/demonstrativo da TrixLive (korabots.com.br) — Remotion + TypeScript",
+  "scripts": {
+    "setup:fonts": "node scripts/copy-fonts.mjs",
+    "capture": "node scripts/capture.mjs",
+    "voice": "python3 scripts/tts.py",
+    "sfx": "python3 scripts/sfx.py",
+    "music": "python3 scripts/music.py",
+    "assets": "npm run voice && npm run sfx && npm run music",
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts TrixLivePromo out/render-raw.mp4 && bash scripts/finalize.sh out/render-raw.mp4 out/trixlive-promo-1080p.mp4",
+    "render:still": "remotion still src/index.ts TrixLivePromo out/still.png",
+    "verify": "python3 scripts/verify.py out/trixlive-promo-1080p.mp4",
+    "typecheck": "tsc --noEmit",
+    "capture:test": "node scripts/test/run-fixture.mjs",
+    "stills": "node scripts/stills.mjs out/stills",
+    "asr": "python3 scripts/asr_check.py",
+    "all": "npm run assets && npm run render && npm run verify"
+  },
+  "dependencies": {
+    "@fontsource/inter": "^5.3.0",
+    "@fontsource/jetbrains-mono": "^5.3.0",
+    "@fontsource/space-grotesk": "^5.3.0",
+    "@remotion/cli": "^4.0.543",
+    "@remotion/fonts": "^4.0.543",
+    "@remotion/media-utils": "^4.0.543",
+    "qrcode": "^1.5.4",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.543"
+  },
+  "devDependencies": {
+    "@types/qrcode": "^1.5.6",
+    "@types/react": "^19.3.0",
+    "playwright": "^1.63.0",
+    "typescript": "^7.0.2"
+  }
+}
