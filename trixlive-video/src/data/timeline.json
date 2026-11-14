@@ -1,0 +1,869 @@
+{
+ "fps": 30,
+ "durationInFrames": 5214,
+ "seconds": 173.8,
+ "scenes": [
+  {
+   "id": "intro",
+   "title": "Abertura",
+   "from": 0,
+   "durationInFrames": 384,
+   "lines": [
+    {
+     "id": "intro-1",
+     "text": "Compartilhe sua tela.",
+     "audio": "audio/vo/intro-1.wav",
+     "from": 96,
+     "durationInFrames": 43,
+     "seconds": 1.43,
+     "subs": [
+      {
+       "rows": [
+        "Compartilhe sua tela."
+       ],
+       "from": 96,
+       "to": 139,
+       "localFrom": 96,
+       "localTo": 139
+      }
+     ],
+     "localFrom": 96
+    },
+    {
+     "id": "intro-2",
+     "text": "Converse em tempo real.",
+     "audio": "audio/vo/intro-2.wav",
+     "from": 152,
+     "durationInFrames": 49,
+     "seconds": 1.613,
+     "subs": [
+      {
+       "rows": [
+        "Converse em tempo real."
+       ],
+       "from": 152,
+       "to": 201,
+       "localFrom": 152,
+       "localTo": 201
+      }
+     ],
+     "localFrom": 152
+    },
+    {
+     "id": "intro-3",
+     "text": "Tudo pelo navegador.",
+     "audio": "audio/vo/intro-3.wav",
+     "from": 214,
+     "durationInFrames": 45,
+     "seconds": 1.48,
+     "subs": [
+      {
+       "rows": [
+        "Tudo pelo navegador."
+       ],
+       "from": 214,
+       "to": 259,
+       "localFrom": 214,
+       "localTo": 259
+      }
+     ],
+     "localFrom": 214
+    },
+    {
+     "id": "intro-4",
+     "text": "Esta é a TrixLive.",
+     "audio": "audio/vo/intro-4.wav",
+     "from": 292,
+     "durationInFrames": 45,
+     "seconds": 1.48,
+     "subs": [
+      {
+       "rows": [
+        "Esta é a TrixLive."
+       ],
+       "from": 292,
+       "to": 336,
+       "localFrom": 292,
+       "localTo": 336
+      }
+     ],
+     "localFrom": 292
+    }
+   ]
+  },
+  {
+   "id": "platform",
+   "title": "Apresentação",
+   "from": 384,
+   "durationInFrames": 526,
+   "lines": [
+    {
+     "id": "platform-1",
+     "text": "A TrixLive é uma plataforma web para compartilhar a sua tela e conversar por voz, ao mesmo tempo, em uma sala só sua.",
+     "audio": "audio/vo/platform-1.wav",
+     "from": 408,
+     "durationInFrames": 205,
+     "seconds": 6.804,
+     "subs": [
+      {
+       "rows": [
+        "A TrixLive é uma plataforma web para",
+        "compartilhar a sua tela e conversar por voz,"
+       ],
+       "from": 408,
+       "to": 557,
+       "localFrom": 24,
+       "localTo": 173
+      },
+      {
+       "rows": [
+        "ao mesmo tempo, em uma sala só sua."
+       ],
+       "from": 557,
+       "to": 612,
+       "localFrom": 173,
+       "localTo": 228
+      }
+     ],
+     "localFrom": 24
+    },
+    {
+     "id": "platform-2",
+     "text": "Sem complicação: tudo funciona dentro do próprio navegador.",
+     "audio": "audio/vo/platform-2.wav",
+     "from": 627,
+     "durationInFrames": 102,
+     "seconds": 3.397,
+     "subs": [
+      {
+       "rows": [
+        "Sem complicação: tudo funciona",
+        "dentro do próprio navegador."
+       ],
+       "from": 627,
+       "to": 729,
+       "localFrom": 243,
+       "localTo": 345
+      }
+     ],
+     "localFrom": 243
+    },
+    {
+     "id": "platform-3",
+     "text": "Vamos acompanhar, passo a passo, a jornada de quem está usando pela primeira vez.",
+     "audio": "audio/vo/platform-3.wav",
+     "from": 744,
+     "durationInFrames": 136,
+     "seconds": 4.52,
+     "subs": [
+      {
+       "rows": [
+        "Vamos acompanhar, passo a passo, a jornada",
+        "de quem está usando pela primeira vez."
+       ],
+       "from": 744,
+       "to": 880,
+       "localFrom": 360,
+       "localTo": 496
+      }
+     ],
+     "localFrom": 360
+    }
+   ]
+  },
+  {
+   "id": "home",
+   "title": "Página inicial",
+   "from": 910,
+   "durationInFrames": 452,
+   "lines": [
+    {
+     "id": "home-1",
+     "text": "Tudo começa em korabots.com.br.",
+     "audio": "audio/vo/home-1.wav",
+     "from": 982,
+     "durationInFrames": 85,
+     "seconds": 2.826,
+     "subs": [
+      {
+       "rows": [
+        "Tudo começa em korabots.com.br."
+       ],
+       "from": 982,
+       "to": 1067,
+       "localFrom": 72,
+       "localTo": 157
+      }
+     ],
+     "localFrom": 72
+    },
+    {
+     "id": "home-2",
+     "text": "Ao abrir o endereço, a página inicial da TrixLive já apresenta o que você precisa para começar a sua sessão.",
+     "audio": "audio/vo/home-2.wav",
+     "from": 1091,
+     "durationInFrames": 183,
+     "seconds": 6.067,
+     "subs": [
+      {
+       "rows": [
+        "Ao abrir o endereço,"
+       ],
+       "from": 1091,
+       "to": 1130,
+       "localFrom": 181,
+       "localTo": 220
+      },
+      {
+       "rows": [
+        "a página inicial da",
+        "TrixLive já apresenta o"
+       ],
+       "from": 1130,
+       "to": 1189,
+       "localFrom": 220,
+       "localTo": 279
+      },
+      {
+       "rows": [
+        "que você precisa para",
+        "começar a sua sessão."
+       ],
+       "from": 1189,
+       "to": 1273,
+       "localFrom": 279,
+       "localTo": 363
+      }
+     ],
+     "localFrom": 181
+    },
+    {
+     "id": "home-3",
+     "text": "Vamos por partes.",
+     "audio": "audio/vo/home-3.wav",
+     "from": 1288,
+     "durationInFrames": 39,
+     "seconds": 1.27,
+     "subs": [
+      {
+       "rows": [
+        "Vamos por partes."
+       ],
+       "from": 1288,
+       "to": 1326,
+       "localFrom": 378,
+       "localTo": 416
+      }
+     ],
+     "localFrom": 378
+    }
+   ]
+  },
+  {
+   "id": "setup",
+   "title": "Apelido, perfil e microfone",
+   "from": 1362,
+   "durationInFrames": 672,
+   "lines": [
+    {
+     "id": "setup-1",
+     "text": "Primeiro, escolha um apelido. É com ele que você vai aparecer para os outros participantes.",
+     "audio": "audio/vo/setup-1.wav",
+     "from": 1380,
+     "durationInFrames": 157,
+     "seconds": 5.229,
+     "subs": [
+      {
+       "rows": [
+        "Primeiro, escolha um apelido."
+       ],
+       "from": 1380,
+       "to": 1432,
+       "localFrom": 18,
+       "localTo": 70
+      },
+      {
+       "rows": [
+        "É com ele que você vai aparecer",
+        "para os outros participantes."
+       ],
+       "from": 1432,
+       "to": 1537,
+       "localFrom": 70,
+       "localTo": 175
+      }
+     ],
+     "localFrom": 18
+    },
+    {
+     "id": "setup-2",
+     "text": "Em seguida, selecione um dos perfis de sessão disponíveis, de acordo com o que você pretende compartilhar.",
+     "audio": "audio/vo/setup-2.wav",
+     "from": 1585,
+     "durationInFrames": 179,
+     "seconds": 5.961,
+     "subs": [
+      {
+       "rows": [
+        "Em seguida, selecione um dos",
+        "perfis de sessão disponíveis,"
+       ],
+       "from": 1585,
+       "to": 1693,
+       "localFrom": 223,
+       "localTo": 331
+      },
+      {
+       "rows": [
+        "de acordo com o que você",
+        "pretende compartilhar."
+       ],
+       "from": 1693,
+       "to": 1764,
+       "localFrom": 331,
+       "localTo": 402
+      }
+     ],
+     "localFrom": 223
+    },
+    {
+     "id": "setup-3",
+     "text": "E, antes de entrar, faça um teste rápido do microfone, para ter certeza de que a sua voz está chegando com clareza.",
+     "audio": "audio/vo/setup-3.wav",
+     "from": 1812,
+     "durationInFrames": 181,
+     "seconds": 6.005,
+     "subs": [
+      {
+       "rows": [
+        "E, antes de entrar, faça um",
+        "teste rápido do microfone,"
+       ],
+       "from": 1812,
+       "to": 1908,
+       "localFrom": 450,
+       "localTo": 546
+      },
+      {
+       "rows": [
+        "para ter certeza de que a sua",
+        "voz está chegando com clareza."
+       ],
+       "from": 1908,
+       "to": 1992,
+       "localFrom": 546,
+       "localTo": 630
+      }
+     ],
+     "localFrom": 450
+    }
+   ]
+  },
+  {
+   "id": "room",
+   "title": "Criação da sala",
+   "from": 2034,
+   "durationInFrames": 329,
+   "lines": [
+    {
+     "id": "room-1",
+     "text": "Tudo pronto? Agora é só criar a sua sala privada.",
+     "audio": "audio/vo/room-1.wav",
+     "from": 2052,
+     "durationInFrames": 104,
+     "seconds": 3.455,
+     "subs": [
+      {
+       "rows": [
+        "Tudo pronto? Agora é só",
+        "criar a sua sala privada."
+       ],
+       "from": 2052,
+       "to": 2156,
+       "localFrom": 18,
+       "localTo": 122
+      }
+     ],
+     "localFrom": 18
+    },
+    {
+     "id": "room-2",
+     "text": "Ela é o seu espaço reservado, para as pessoas que você convidar.",
+     "audio": "audio/vo/room-2.wav",
+     "from": 2192,
+     "durationInFrames": 106,
+     "seconds": 3.521,
+     "subs": [
+      {
+       "rows": [
+        "Ela é o seu espaço reservado,",
+        "para as pessoas que você convidar."
+       ],
+       "from": 2192,
+       "to": 2297,
+       "localFrom": 158,
+       "localTo": 263
+      }
+     ],
+     "localFrom": 158
+    }
+   ]
+  },
+  {
+   "id": "invite",
+   "title": "Convite",
+   "from": 2363,
+   "durationInFrames": 369,
+   "lines": [
+    {
+     "id": "invite-1",
+     "text": "Para chamar a sua turma, compartilhe o convite.",
+     "audio": "audio/vo/invite-1.wav",
+     "from": 2378,
+     "durationInFrames": 82,
+     "seconds": 2.712,
+     "subs": [
+      {
+       "rows": [
+        "Para chamar a sua turma,",
+        "compartilhe o convite."
+       ],
+       "from": 2378,
+       "to": 2459,
+       "localFrom": 15,
+       "localTo": 96
+      }
+     ],
+     "localFrom": 15
+    },
+    {
+     "id": "invite-2",
+     "text": "Envie o link da sala por mensagem, ou mostre o QR Code, para quem preferir acessar apontando a câmera do celular.",
+     "audio": "audio/vo/invite-2.wav",
+     "from": 2477,
+     "durationInFrames": 195,
+     "seconds": 6.485,
+     "subs": [
+      {
+       "rows": [
+        "Envie o link da sala por",
+        "mensagem, ou mostre o QR Code,"
+       ],
+       "from": 2477,
+       "to": 2572,
+       "localFrom": 114,
+       "localTo": 209
+      },
+      {
+       "rows": [
+        "para quem preferir acessar",
+        "apontando a câmera do celular."
+       ],
+       "from": 2572,
+       "to": 2672,
+       "localFrom": 209,
+       "localTo": 309
+      }
+     ],
+     "localFrom": 114
+    }
+   ]
+  },
+  {
+   "id": "share",
+   "title": "Compartilhamento de tela",
+   "from": 2732,
+   "durationInFrames": 576,
+   "lines": [
+    {
+     "id": "share-1",
+     "text": "Chegou a hora de compartilhar a tela.",
+     "audio": "audio/vo/share-1.wav",
+     "from": 2750,
+     "durationInFrames": 67,
+     "seconds": 2.222,
+     "subs": [
+      {
+       "rows": [
+        "Chegou a hora de compartilhar a tela."
+       ],
+       "from": 2750,
+       "to": 2817,
+       "localFrom": 18,
+       "localTo": 85
+      }
+     ],
+     "localFrom": 18
+    },
+    {
+     "id": "share-2",
+     "text": "Por segurança, o próprio navegador pede a sua autorização e deixa você escolher o que mostrar: a tela inteira, uma janela, ou apenas uma guia.",
+     "audio": "audio/vo/share-2.wav",
+     "from": 2847,
+     "durationInFrames": 238,
+     "seconds": 7.929,
+     "subs": [
+      {
+       "rows": [
+        "Por segurança,"
+       ],
+       "from": 2847,
+       "to": 2873,
+       "localFrom": 115,
+       "localTo": 141
+      },
+      {
+       "rows": [
+        "o próprio navegador pede a sua autorização",
+        "e deixa você escolher o que mostrar:"
+       ],
+       "from": 2873,
+       "to": 3003,
+       "localFrom": 141,
+       "localTo": 271
+      },
+      {
+       "rows": [
+        "a tela inteira, uma",
+        "janela, ou apenas uma guia."
+       ],
+       "from": 3003,
+       "to": 3085,
+       "localFrom": 271,
+       "localTo": 353
+      }
+     ],
+     "localFrom": 115
+    },
+    {
+     "id": "share-3",
+     "text": "Nada é transmitido sem a sua permissão, e você pode encerrar o compartilhamento quando quiser.",
+     "audio": "audio/vo/share-3.wav",
+     "from": 3115,
+     "durationInFrames": 158,
+     "seconds": 5.264,
+     "subs": [
+      {
+       "rows": [
+        "Nada é transmitido sem a sua permissão,"
+       ],
+       "from": 3115,
+       "to": 3186,
+       "localFrom": 383,
+       "localTo": 454
+      },
+      {
+       "rows": [
+        "e você pode encerrar o",
+        "compartilhamento quando quiser."
+       ],
+       "from": 3186,
+       "to": 3272,
+       "localFrom": 454,
+       "localTo": 540
+      }
+     ],
+     "localFrom": 383
+    }
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "Participação e voz",
+   "from": 3308,
+   "durationInFrames": 445,
+   "lines": [
+    {
+     "id": "voice-1",
+     "text": "Do outro lado, quem entra na sala acompanha a sua tela e participa da conversa por voz, em tempo real.",
+     "audio": "audio/vo/voice-1.wav",
+     "from": 3326,
+     "durationInFrames": 172,
+     "seconds": 5.711,
+     "subs": [
+      {
+       "rows": [
+        "Do outro lado,"
+       ],
+       "from": 3326,
+       "to": 3351,
+       "localFrom": 18,
+       "localTo": 43
+      },
+      {
+       "rows": [
+        "quem entra na sala acompanha a sua",
+        "tela e participa da conversa por voz,"
+       ],
+       "from": 3351,
+       "to": 3470,
+       "localFrom": 43,
+       "localTo": 162
+      },
+      {
+       "rows": [
+        "em tempo real."
+       ],
+       "from": 3470,
+       "to": 3497,
+       "localFrom": 162,
+       "localTo": 189
+      }
+     ],
+     "localFrom": 18
+    },
+    {
+     "id": "voice-2",
+     "text": "Os controles ficam sempre à mão: ative ou silencie o microfone e acesse as configurações da sessão.",
+     "audio": "audio/vo/voice-2.wav",
+     "from": 3518,
+     "durationInFrames": 169,
+     "seconds": 5.629,
+     "subs": [
+      {
+       "rows": [
+        "Os controles ficam sempre à mão:"
+       ],
+       "from": 3518,
+       "to": 3573,
+       "localFrom": 210,
+       "localTo": 265
+      },
+      {
+       "rows": [
+        "ative ou silencie o microfone e",
+        "acesse as configurações da sessão."
+       ],
+       "from": 3573,
+       "to": 3687,
+       "localFrom": 265,
+       "localTo": 379
+      }
+     ],
+     "localFrom": 210
+    }
+   ]
+  },
+  {
+   "id": "usecases",
+   "title": "Contextos de uso",
+   "from": 3753,
+   "durationInFrames": 648,
+   "lines": [
+    {
+     "id": "usecases-1",
+     "text": "E o melhor: a TrixLive se adapta ao seu momento.",
+     "audio": "audio/vo/usecases-1.wav",
+     "from": 3771,
+     "durationInFrames": 85,
+     "seconds": 2.809,
+     "subs": [
+      {
+       "rows": [
+        "E o melhor: a TrixLive",
+        "se adapta ao seu momento."
+       ],
+       "from": 3771,
+       "to": 3855,
+       "localFrom": 18,
+       "localTo": 102
+      }
+     ],
+     "localFrom": 18
+    },
+    {
+     "id": "usecases-2",
+     "text": "Mostre a sua partida e jogue junto com os amigos.",
+     "audio": "audio/vo/usecases-2.wav",
+     "from": 3873,
+     "durationInFrames": 91,
+     "seconds": 3.027,
+     "subs": [
+      {
+       "rows": [
+        "Mostre a sua partida e",
+        "jogue junto com os amigos."
+       ],
+       "from": 3873,
+       "to": 3964,
+       "localFrom": 120,
+       "localTo": 211
+      }
+     ],
+     "localFrom": 120
+    },
+    {
+     "id": "usecases-3",
+     "text": "Assista a conteúdos em conjunto, comentando cada cena.",
+     "audio": "audio/vo/usecases-3.wav",
+     "from": 3988,
+     "durationInFrames": 99,
+     "seconds": 3.29,
+     "subs": [
+      {
+       "rows": [
+        "Assista a conteúdos em",
+        "conjunto, comentando cada cena."
+       ],
+       "from": 3988,
+       "to": 4087,
+       "localFrom": 235,
+       "localTo": 334
+      }
+     ],
+     "localFrom": 235
+    },
+    {
+     "id": "usecases-4",
+     "text": "Bata papo por voz, sem precisar de mais nada.",
+     "audio": "audio/vo/usecases-4.wav",
+     "from": 4111,
+     "durationInFrames": 83,
+     "seconds": 2.745,
+     "subs": [
+      {
+       "rows": [
+        "Bata papo por voz, sem",
+        "precisar de mais nada."
+       ],
+       "from": 4111,
+       "to": 4193,
+       "localFrom": 358,
+       "localTo": 440
+      }
+     ],
+     "localFrom": 358
+    },
+    {
+     "id": "usecases-5",
+     "text": "Ou colabore no trabalho: apresente telas, revise projetos e resolva tarefas em equipe.",
+     "audio": "audio/vo/usecases-5.wav",
+     "from": 4217,
+     "durationInFrames": 155,
+     "seconds": 5.143,
+     "subs": [
+      {
+       "rows": [
+        "Ou colabore no trabalho: apresente telas,"
+       ],
+       "from": 4217,
+       "to": 4293,
+       "localFrom": 464,
+       "localTo": 540
+      },
+      {
+       "rows": [
+        "revise projetos e resolva",
+        "tarefas em equipe."
+       ],
+       "from": 4293,
+       "to": 4371,
+       "localFrom": 540,
+       "localTo": 618
+      }
+     ],
+     "localFrom": 464
+    }
+   ]
+  },
+  {
+   "id": "browser",
+   "title": "Direto no navegador",
+   "from": 4401,
+   "durationInFrames": 334,
+   "lines": [
+    {
+     "id": "browser-1",
+     "text": "Tudo isso direto no navegador: sem instalar programas e sem criar cadastro.",
+     "audio": "audio/vo/browser-1.wav",
+     "from": 4419,
+     "durationInFrames": 131,
+     "seconds": 4.359,
+     "subs": [
+      {
+       "rows": [
+        "Tudo isso direto no navegador: sem",
+        "instalar programas e sem criar cadastro."
+       ],
+       "from": 4419,
+       "to": 4550,
+       "localFrom": 18,
+       "localTo": 149
+      }
+     ],
+     "localFrom": 18
+    },
+    {
+     "id": "browser-2",
+     "text": "É só abrir o endereço, escolher o seu apelido, e pronto: você já está conectado.",
+     "audio": "audio/vo/browser-2.wav",
+     "from": 4568,
+     "durationInFrames": 138,
+     "seconds": 4.58,
+     "subs": [
+      {
+       "rows": [
+        "É só abrir o endereço, escolher o seu",
+        "apelido, e pronto: você já está conectado."
+       ],
+       "from": 4568,
+       "to": 4705,
+       "localFrom": 167,
+       "localTo": 304
+      }
+     ],
+     "localFrom": 167
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "title": "Encerramento",
+   "from": 4735,
+   "durationInFrames": 479,
+   "lines": [
+    {
+     "id": "outro-1",
+     "text": "TrixLive. Sua tela, sua sala, sua conexão.",
+     "audio": "audio/vo/outro-1.wav",
+     "from": 4783,
+     "durationInFrames": 131,
+     "seconds": 4.34,
+     "subs": [
+      {
+       "rows": [
+        "TrixLive. Sua tela, sua sala, sua conexão."
+       ],
+       "from": 4783,
+       "to": 4913,
+       "localFrom": 48,
+       "localTo": 178
+      }
+     ],
+     "localFrom": 48
+    },
+    {
+     "id": "outro-2",
+     "text": "Acesse korabots.com.br e crie a sua sala agora mesmo.",
+     "audio": "audio/vo/outro-2.wav",
+     "from": 4940,
+     "durationInFrames": 124,
+     "seconds": 4.12,
+     "subs": [
+      {
+       "rows": [
+        "Acesse korabots.com.br e",
+        "crie a sua sala agora mesmo."
+       ],
+       "from": 4940,
+       "to": 5064,
+       "localFrom": 205,
+       "localTo": 329
+      }
+     ],
+     "localFrom": 205
+    }
+   ]
+  }
+ ]
+}

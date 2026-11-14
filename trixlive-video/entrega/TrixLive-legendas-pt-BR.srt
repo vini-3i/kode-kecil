@@ -1,0 +1,208 @@
+1
+00:00:03,200 --> 00:00:04,780
+Compartilhe sua tela.
+
+2
+00:00:05,080 --> 00:00:06,843
+Converse em tempo real.
+
+3
+00:00:07,143 --> 00:00:08,773
+Tudo pelo navegador.
+
+4
+00:00:09,723 --> 00:00:11,353
+Esta é a TrixLive.
+
+5
+00:00:13,600 --> 00:00:18,720
+A TrixLive é uma plataforma web para
+compartilhar a sua tela e conversar por voz,
+
+6
+00:00:18,570 --> 00:00:20,554
+ao mesmo tempo, em uma sala só sua.
+
+7
+00:00:20,904 --> 00:00:24,452
+Sem complicação: tudo funciona
+dentro do próprio navegador.
+
+8
+00:00:24,802 --> 00:00:29,472
+Vamos acompanhar, passo a passo, a jornada
+de quem está usando pela primeira vez.
+
+9
+00:00:32,733 --> 00:00:35,709
+Tudo começa em korabots.com.br.
+
+10
+00:00:36,359 --> 00:00:37,819
+Ao abrir o endereço,
+
+11
+00:00:37,669 --> 00:00:39,799
+a página inicial da
+TrixLive já apresenta o
+
+12
+00:00:39,649 --> 00:00:42,577
+que você precisa para
+começar a sua sessão.
+
+13
+00:00:42,927 --> 00:00:44,347
+Vamos por partes.
+
+14
+00:00:46,000 --> 00:00:47,900
+Primeiro, escolha um apelido.
+
+15
+00:00:47,750 --> 00:00:51,379
+É com ele que você vai aparecer
+para os outros participantes.
+
+16
+00:00:52,829 --> 00:00:56,589
+Em seguida, selecione um dos
+perfis de sessão disponíveis,
+
+17
+00:00:56,439 --> 00:00:58,940
+de acordo com o que você
+pretende compartilhar.
+
+18
+00:01:00,390 --> 00:01:03,750
+E, antes de entrar, faça um
+teste rápido do microfone,
+
+19
+00:01:03,600 --> 00:01:06,545
+para ter certeza de que a sua
+voz está chegando com clareza.
+
+20
+00:01:08,400 --> 00:01:12,005
+Tudo pronto? Agora é só
+criar a sua sala privada.
+
+21
+00:01:13,055 --> 00:01:16,726
+Ela é o seu espaço reservado,
+para as pessoas que você convidar.
+
+22
+00:01:19,267 --> 00:01:22,129
+Para chamar a sua turma,
+compartilhe o convite.
+
+23
+00:01:22,579 --> 00:01:25,879
+Envie o link da sala por
+mensagem, ou mostre o QR Code,
+
+24
+00:01:25,729 --> 00:01:29,214
+para quem preferir acessar
+apontando a câmera do celular.
+
+25
+00:01:31,667 --> 00:01:34,038
+Chegou a hora de compartilhar a tela.
+
+26
+00:01:34,888 --> 00:01:35,908
+Por segurança,
+
+27
+00:01:35,758 --> 00:01:40,248
+o próprio navegador pede a sua autorização
+e deixa você escolher o que mostrar:
+
+28
+00:01:40,098 --> 00:01:42,967
+a tela inteira, uma
+janela, ou apenas uma guia.
+
+29
+00:01:43,817 --> 00:01:46,337
+Nada é transmitido sem a sua permissão,
+
+30
+00:01:46,187 --> 00:01:49,231
+e você pode encerrar o
+compartilhamento quando quiser.
+
+31
+00:01:50,867 --> 00:01:51,867
+Do outro lado,
+
+32
+00:01:51,717 --> 00:01:55,807
+quem entra na sala acompanha a sua
+tela e participa da conversa por voz,
+
+33
+00:01:55,657 --> 00:01:56,727
+em tempo real.
+
+34
+00:01:57,277 --> 00:01:59,257
+Os controles ficam sempre à mão:
+
+35
+00:01:59,107 --> 00:02:03,056
+ative ou silencie o microfone e
+acesse as configurações da sessão.
+
+36
+00:02:05,700 --> 00:02:08,659
+E o melhor: a TrixLive
+se adapta ao seu momento.
+
+37
+00:02:09,109 --> 00:02:12,287
+Mostre a sua partida e
+jogue junto com os amigos.
+
+38
+00:02:12,937 --> 00:02:16,376
+Assista a conteúdos em
+conjunto, comentando cada cena.
+
+39
+00:02:17,026 --> 00:02:19,921
+Bata papo por voz, sem
+precisar de mais nada.
+
+40
+00:02:20,571 --> 00:02:23,251
+Ou colabore no trabalho: apresente telas,
+
+41
+00:02:23,101 --> 00:02:25,864
+revise projetos e resolva
+tarefas em equipe.
+
+42
+00:02:27,300 --> 00:02:31,809
+Tudo isso direto no navegador: sem
+instalar programas e sem criar cadastro.
+
+43
+00:02:32,259 --> 00:02:36,989
+É só abrir o endereço, escolher o seu
+apelido, e pronto: você já está conectado.
+
+44
+00:02:39,433 --> 00:02:43,923
+TrixLive. Sua tela, sua sala, sua conexão.
+
+45
+00:02:44,673 --> 00:02:48,943
+Acesse korabots.com.br e
+crie a sua sala agora mesmo.
+

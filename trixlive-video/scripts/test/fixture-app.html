@@ -1,0 +1,51 @@
+<!doctype html>
+<!-- FIXTURE DE TESTE do scripts/capture.mjs. NÃO representa a interface da TrixLive e nunca é usado no vídeo. -->
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Fixture de teste</title>
+<style>
+  body { font-family: sans-serif; background: #ddd; color: #222; margin: 0; padding: 40px; }
+  .banner { background: #c00; color: #fff; padding: 12px; font-weight: bold; margin-bottom: 24px; }
+  button { padding: 10px 16px; margin: 6px; background: #555; color: #fff; border: 0; }
+  video { width: 640px; height: 360px; background: #000; display: block; margin: 12px 0; }
+  .qr { width: 160px; height: 160px; background: repeating-linear-gradient(45deg,#000 0 8px,#fff 8px 16px); }
+</style>
+</head>
+<body>
+<div class="banner">FIXTURE DE TESTE — não é a TrixLive</div>
+<div id="app"></div>
+<script>
+const q = new URLSearchParams(location.search);
+const app = document.getElementById('app');
+if (!q.get('sala')) {
+  app.innerHTML = `<h1>Fixture</h1>
+    <label>Apelido <input type="text" placeholder="Seu apelido"></label>
+    <label>Perfil <select><option>Perfil A</option><option>Perfil B</option><option>Perfil C</option></select></label>
+    <button id="mic">Testar microfone</button><span id="lvl"></span>
+    <button id="create">Criar sala</button>`;
+  document.getElementById('mic').onclick = async () => {
+    const s = await navigator.mediaDevices.getUserMedia({ audio: true });
+    document.getElementById('lvl').textContent = 'mic: ' + s.getAudioTracks()[0].label;
+  };
+  document.getElementById('create').onclick = () => { location.search = '?sala=ZX81Q7'; };
+} else {
+  const guest = q.get('g');
+  app.innerHTML = guest ? `<h2>Entrar</h2><input type="text" placeholder="Seu apelido"><button id="join">Entrar</button><div id="room"></div>`
+    : `<h2>Sala ZX81Q7</h2><button id="inv">Convidar</button><div id="invite" hidden><input readonly value="${location.origin}/?sala=ZX81Q7&g=1"><div class="qr"></div></div>
+       <button id="share">Compartilhar tela</button><video autoplay muted></video><div class="controls"><button>Microfone</button><button>Configurações</button><button>Parar</button></div>`;
+  if (guest) {
+    document.getElementById('join').onclick = () => {
+      document.getElementById('room').innerHTML = `<p>Demo TrixLive (anfitrião)</p><video></video><div class="controls"><button aria-label="Microfone">Mic</button><button>Configurações</button></div>`;
+    };
+  } else {
+    document.getElementById('inv').onclick = () => { document.getElementById('invite').hidden = false; };
+    document.getElementById('share').onclick = async () => {
+      const s = await navigator.mediaDevices.getDisplayMedia({ video: true });
+      document.querySelector('video').srcObject = s;
+    };
+  }
+}
+</script>
+</body>
+</html>
