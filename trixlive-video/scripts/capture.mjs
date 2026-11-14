@@ -366,7 +366,7 @@ async function manual(browser, page, data) {
 function finish(data) {
   writeFileSync(JSON_OUT, JSON.stringify(data, null, 1));
   const miss = report.filter((r) => !r.ok);
-  console.log(`\n${Object.keys(data.shots).length} capturas salvas em public/captures — dados em src/data/captures.json`);
+  console.log(`\n${Object.keys(data.shots).length} capturas salvas em ${path.relative(ROOT, OUT)} — dados em ${path.relative(ROOT, JSON_OUT)}`);
   if (miss.length) console.log(`${miss.length} item(ns) não encontrado(s). Ajuste capture.config.json e rode de novo.`);
 }
 
