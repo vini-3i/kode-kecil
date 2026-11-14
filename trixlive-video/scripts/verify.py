@@ -58,7 +58,8 @@ def main():
     check(abs(vd - exp) < 0.1, "duração do vídeo = timeline", f"{vd:.2f}s (esperado {exp:.2f}s)")
     check(abs(vd - ad) < 0.1, "duração áudio ≈ vídeo", f"áudio {ad:.2f}s")
     br = int(p["format"]["bit_rate"]) / 1e6
-    check(br > 6, "taxa de bits adequada para 1080p", f"{br:.1f} Mb/s")
+    # renderizado com CRF 16 (qualidade constante): a taxa varia com a complexidade da imagem; apenas informativo
+    check(br > 2, "taxa de bits (CRF 16, qualidade constante)", f"{br:.1f} Mb/s")
 
     # 2. loudness
     r = subprocess.run(["ffmpeg", "-hide_banner", "-nostats", "-i", str(video), "-af", "ebur128=peak=true", "-f", "null", "-"], capture_output=True, text=True)

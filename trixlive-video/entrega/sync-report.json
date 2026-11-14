@@ -1,0 +1,188 @@
+[
+ {
+  "id": "intro-1",
+  "offset_ms": 0.0,
+  "wer": 0.0,
+  "asr": "Compartilhe sua tela."
+ },
+ {
+  "id": "intro-2",
+  "offset_ms": 0.0,
+  "wer": 0.0,
+  "asr": "Converse em tempo real."
+ },
+ {
+  "id": "intro-3",
+  "offset_ms": 0.0,
+  "wer": 0.0,
+  "asr": "Tudo pelo navegador."
+ },
+ {
+  "id": "intro-4",
+  "offset_ms": 0.0,
+  "wer": 0.2,
+  "asr": "Esta é a Trix Lai."
+ },
+ {
+  "id": "platform-1",
+  "offset_ms": 0.0,
+  "wer": 0.042,
+  "asr": "A Trix Live é uma plataforma web para compartilhar a sua tela e conversar por vós, ao mesmo tempo, em uma sala só sua."
+ },
+ {
+  "id": "platform-2",
+  "offset_ms": 0.0,
+  "wer": 0.0,
+  "asr": "Sem complicação, tudo funciona dentro do próprio navegador."
+ },
+ {
+  "id": "platform-3",
+  "offset_ms": 0.0,
+  "wer": 0.0,
+  "asr": "Vamos acompanhar, passo a passo, a jornada de quem está usando pela primeira vez."
+ },
+ {
+  "id": "home-1",
+  "offset_ms": 0.0,
+  "wer": 0.375,
+  "asr": "Tudo começa em Corabotas.com.br."
+ },
+ {
+  "id": "home-2",
+  "offset_ms": 0.0,
+  "wer": 0.048,
+  "asr": "Ao abrir o endereço, a página inicial da Tricks Live já apresenta o que você precisa para começar a sua sessão."
+ },
+ {
+  "id": "home-3",
+  "offset_ms": 0.0,
+  "wer": 0.0,
+  "asr": "Vamos por partes."
+ },
+ {
+  "id": "setup-1",
+  "offset_ms": 0.0,
+  "wer": 0.0,
+  "asr": "Primeiro, escolha um apelido. É com ele que você vai aparecer para os outros participantes."
+ },
+ {
+  "id": "setup-2",
+  "offset_ms": 0.0,
+  "wer": 0.0,
+  "asr": "Em seguida, selecione um dos perfis de sessão disponíveis, de acordo com o que você pretende compartilhar."
+ },
+ {
+  "id": "setup-3",
+  "offset_ms": 0.0,
+  "wer": 0.045,
+  "asr": "E antes de entrar, passa um teste rápido do microfone para ter certeza de que a sua voz está chegando com clareza."
+ },
+ {
+  "id": "room-1",
+  "offset_ms": 0.0,
+  "wer": 0.0,
+  "asr": "Tudo pronto! Agora é só criar a sua sala privada."
+ },
+ {
+  "id": "room-2",
+  "offset_ms": 0.0,
+  "wer": 0.0,
+  "asr": "Ela é o seu espaço reservado para as pessoas que você convidar."
+ },
+ {
+  "id": "invite-1",
+  "offset_ms": 0.0,
+  "wer": 0.0,
+  "asr": "Para chamar a sua turma, compartilhe o convite."
+ },
+ {
+  "id": "invite-2",
+  "offset_ms": 0.0,
+  "wer": 0.0,
+  "asr": "Envie o link da sala por mensagem ou mostre o QR-Code para quem preferir acessar apontando a câmera do celular."
+ },
+ {
+  "id": "share-1",
+  "offset_ms": 0.0,
+  "wer": 0.0,
+  "asr": "chegou a hora de compartilhar a tela."
+ },
+ {
+  "id": "share-2",
+  "offset_ms": 0.0,
+  "wer": 0.0,
+  "asr": "Por segurança, o próprio navegador pede a sua autorização e deixa você escolher o que mostrar. A tela inteira uma janela ou apenas uma guia."
+ },
+ {
+  "id": "share-3",
+  "offset_ms": 0.0,
+  "wer": 0.0,
+  "asr": "Nada é transmitido sem a sua permissão e você pode encerrar o compartilhamento quando quiser."
+ },
+ {
+  "id": "voice-1",
+  "offset_ms": 0.0,
+  "wer": 0.1,
+  "asr": "Do outro lado, quem entra na sala acompanha sua tela e participa da conversa por vós, em tempo real."
+ },
+ {
+  "id": "voice-2",
+  "offset_ms": 0.0,
+  "wer": 0.118,
+  "asr": "Os controles ficam sempre à mão, ative ou silenci o microfone e acesse as configurações da seção."
+ },
+ {
+  "id": "usecases-1",
+  "offset_ms": 0.0,
+  "wer": 0.0,
+  "asr": "E o melhor, a Trix Live se adapta ao seu momento."
+ },
+ {
+  "id": "usecases-2",
+  "offset_ms": 0.0,
+  "wer": 0.0,
+  "asr": "Mostre a sua partida e jogue junto com os amigos."
+ },
+ {
+  "id": "usecases-3",
+  "offset_ms": 0.0,
+  "wer": 0.125,
+  "asr": "Assista conteúdos em conjunto, comentando cada cena."
+ },
+ {
+  "id": "usecases-4",
+  "offset_ms": 0.0,
+  "wer": 0.111,
+  "asr": "Bata papo por vós sem precisar de mais nada."
+ },
+ {
+  "id": "usecases-5",
+  "offset_ms": 0.0,
+  "wer": 0.0,
+  "asr": "Ou colabore no trabalho, apresente telas, revise projetos e resolva tarefas em equipe."
+ },
+ {
+  "id": "browser-1",
+  "offset_ms": 0.0,
+  "wer": 0.0,
+  "asr": "Tudo isso direto no navegador, sem instalar programas e sem criar cadastro."
+ },
+ {
+  "id": "browser-2",
+  "offset_ms": 0.0,
+  "wer": 0.0,
+  "asr": "É só abrir o endereço, escolher o seu apelido e pronto você já está conectado."
+ },
+ {
+  "id": "outro-1",
+  "offset_ms": 0.0,
+  "wer": 0.125,
+  "asr": "Tricks Live, sua tela, sua sala, sua conexão."
+ },
+ {
+  "id": "outro-2",
+  "offset_ms": 0.0,
+  "wer": 0.231,
+  "asr": "Acesse Corabotis.com.br e crie a sua sala agora mesmo."
+ }
+]

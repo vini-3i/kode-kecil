@@ -1,0 +1,14 @@
+PASSA  vídeo H.264  h264 perfil High
+PASSA  resolução 1920×1080  1920×1080
+PASSA  30 fps  30/1
+PASSA  pix_fmt yuv420p  yuv420p
+PASSA  áudio AAC 48 kHz estéreo  aac 48000 Hz 2 ch
+PASSA  duração do vídeo = timeline  173.80s (esperado 173.80s)
+PASSA  duração áudio ≈ vídeo  áudio 173.90s
+PASSA  taxa de bits (CRF 16, qualidade constante)  3.7 Mb/s
+PASSA  loudness integrado ≈ -14 LUFS  -14.1 LUFS
+PASSA  true peak ≤ -1 dBTP (margem 0,5)  -0.9 dBTP
+PASSA  sincronia locução ↔ timeline ≤ 1 frame  pior desvio +0.0 ms em 31 falas
+PASSA  inteligibilidade da voz na mixagem final (WER Whisper)  4.5% em 381 palavras
+PASSA  blocos de legenda dentro das falas  45 blocos
+PASSA  sem trechos pretos inesperados  1 trecho(s) preto(s) no total (fade final esperado)
